@@ -1,0 +1,8 @@
+User-agent: BingBot
+Allow: /
+User-agent: Googlebot
+Allow: /
+
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: 0
