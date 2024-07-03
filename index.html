@@ -3,7 +3,7 @@
 <head>
   <title>Nightshade Network - Minecraft Server</title>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta name="keywords" content="eaglercraft, ggsmp eaglercraft, ggsmp, mc.arch.lol, archmc eaglercraft, archmc, eaglercraft servers, eaglercraft server list, arch ealercraft, ggsmp server ip, ggsmp eaglercraft ip, eaglercraft discord, ggsmp link, ggsmp.net, play.ggsmp.net">
   <meta name="description" content="Nightshade Network, a 1.8-1.21 Java Minecraft Network with Eaglercraft Support.">
   <meta name="author" content="therealserver">
@@ -24,8 +24,17 @@
       "keywords": ["eaglercraft", "ggsmp eaglercraft", "ggsmp", "mc.arch.lol", "archmc eaglercraft", "archmc", "eaglercraft servers", "eaglercraft server list", "arch ealercraft", "ggsmp server ip", "ggsmp eaglercraft ip", "eaglercraft discord", "ggsmp link", "ggsmp.net", "play.ggsmp.net", "nightshade", "nightshade network", "minecraft server"]
     }
   </script>
+  <script>
+    function isMobile() {
+      return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    }
+
+    if (isMobile()) {
+      document.documentElement.classList.add('mobile');
+    }
+  </script>
 </head>
-<body>
+<body class="<script>document.write(isMobile() ? 'mobile' : 'desktop');</script>">
   <nav class="nav-bar">
     <div class="nav-links">
       <a href="https://service.nightshade.lol">Discord</a>
